@@ -30,3 +30,6 @@ hadoop jar /opt/hadoop/share/hadoop/tools/lib/hadoop-streaming-*.jar \
 ##Ver resultados:
 
 hdfs dfs -cat /user/root/output1/part-00000
+
+Starlyn Mateo
+23-0977

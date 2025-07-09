@@ -1,0 +1,7 @@
+En la fase de Reduce, la funcion reduce recibe cada clave junto con la lista de valores asociados. 
+Su tarea es combinar estos valores de alguna manera util, por ejemplo, sumandolos o concatenandolos, para producir la salida final del procesamiento. 
+Esta arquitectura permite que tareas complejas y de gran escala, como el conteo de palabras en grandes volumenes de texto o el analisis de logs, se ejecuten de manera eficiente y escalable.
+
+Un ejemplo clasico de un programa MapReduce es el contador de palabras (WordCount), 
+donde la funcion map toma texto y emite pares de (palabra, 1) por cada palabra encontrada. Luego, la funcion reduce suma todas las ocurrencias para cada palabra y genera el total final. 
+Esta metodologia facilita la paralelizacion del procesamiento, aprovechando los recursos distribuidos del cluster para manejar datasets que serian imposibles de procesar en un solo equipo.

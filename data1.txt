@@ -1,0 +1,7 @@
+Hadoop MapReduce es un modelo de programacion disenado para procesar grandes volumenes de datos de manera distribuida y paralela. 
+Forma parte del ecosistema Hadoop, una plataforma de codigo abierto que permite almacenar y procesar datos masivos en clusters de computadoras. 
+El modelo MapReduce divide las tareas de procesamiento en dos fases principales: la fase de Map y la fase de Reduce.
+
+Durante la fase de Map, el sistema toma un conjunto de datos de entrada, que esta dividido en bloques distribuidos en varios nodos del cluster. 
+Cada nodo ejecuta una funcion de mapeo que procesa su bloque de datos y genera una serie de pares clave-valor intermedios. 
+Estos pares son luego reorganizados en la fase de Shuffle and Sort, donde Hadoop agrupa todas las entradas que tienen la misma clave para que puedan ser procesadas juntas.
